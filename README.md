@@ -22,6 +22,10 @@ What Case Study you might want to look at: depending on the type of data you hav
   A --> D;
 ```
 
+Case Studies:
+* [Bob Ross Paintings](#bob-ross-paintings)
+* [Adult Dataset](#adult-dataset)
+* [IJCAI23 abstracts](#ijcai23-abstracts)
 
 ## Bob Ross Paintings
 
@@ -44,7 +48,7 @@ Finding stable groups of people represented in Adult (Census Income) dataset fro
 **Note**: Made "Computational Notebooks for FCA" (CoNo-Concepts 2023) workshop at ICFCA 2023, Kassel (Germany), July 2023.
 
 
-## IJCAI'23 Abstracts
+## IJCAI23 Abstracts
 
 Finding stable ngrams in the abstracts of papers from IJCAI'23 conference.
 
