@@ -13,14 +13,15 @@ Both packages serve for data mining in Python using Formal Concept Analysis (FCA
 The diagram shows the hierarchy of Case Studies with their common tags (in regular font) and the links to the studies (in bold).
 
 ```mermaid
-  graph TD;
-  A[intents,\nstable concepts,\nconcept lattice\n<b>];
-  B[binary data,\nkeys,\nimplications\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings.ipynb'>Bob Ross Paintings</a>];
-  C[tabular data,\nnumerical features,\ncategorical features\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Adult%20Dataset.ipynb'>Adult Dataset</a>];
-  D[textual data,\nngrams,\nngram-cloud\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/IJCAI23%20abstracts.ipynb'>IJCAI23 Abstracts</a>];
-  A --> B;
-  A --> C;
-  A --> D;
+graph TD;
+A[stable concepts,\nintents\n<b>];
+B[keys,\nbinary data,\nimplications\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings.ipynb'>Bob Ross Paintings</a>];
+C[ngrams,\nngram-cloud,\ntextual data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/IJCAI23%20abstracts.ipynb'>IJCAI23 Abstracts</a>];
+D[numerical features,\ncategorical features,\ntabular data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Adult%20Dataset.ipynb'>Adult Dataset</a>];
+
+A --> B;
+A --> C;
+A --> D;
 ```
 
 More elaborated descriptions of Case Studies are presented below.
