@@ -9,19 +9,21 @@ Both packages serve for data mining in Python using Formal Concept Analysis (FCA
 
 # Published Case Studies
 
-What Case Study you might want to look at: depending on the type of data you have, on your task, etc.
+## Hierarchy of Case Studies
+The diagram shows the hierarchy of Case Studies with their common tags (in regular font) and the links to the studies (in bold).
 
 ```mermaid
   graph TD;
-  A[intents,\nstable concepts,\nconcept lattice\n<b>< Any Case Study >];
-  B[binary data,\nkeys,\nimplications\n<b>Bob Ross Paintings];
-  C[tabular data,\nnumerical features,\ncategorical features\n<b>Adult Dataset];
-  D[textual data,\nngrams,\nngram-cloud\n<b>IJCAI'23 Abstracts];
+  A[intents,\nstable concepts,\nconcept lattice\n<b>];
+  B[binary data,\nkeys,\nimplications\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings.ipynb'>Bob Ross Paintings</a>];
+  C[tabular data,\nnumerical features,\ncategorical features\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Adult%20Dataset.ipynb'>Adult Dataset</a>];
+  D[textual data,\nngrams,\nngram-cloud\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/IJCAI23%20abstracts.ipynb'>IJCAI23 Abstracts</a>];
   A --> B;
   A --> C;
   A --> D;
 ```
 
+More elaborated descriptions of Case Studies are presented below.
 
 ## Bob Ross Paintings
 
@@ -44,7 +46,7 @@ Finding stable groups of people represented in Adult (Census Income) dataset fro
 **Note**: Made "Computational Notebooks for FCA" (CoNo-Concepts 2023) workshop at ICFCA 2023, Kassel (Germany), July 2023.
 
 
-## IJCAI'23 Abstracts
+## IJCAI23 Abstracts
 
 Finding stable ngrams in the abstracts of papers from IJCAI'23 conference.
 
