@@ -7,10 +7,10 @@ A repository that contains examples of using [Caspailleur](https://github.com/Eg
 
 Both packages serve for data mining in Python using Formal Concept Analysis (FCA) framework. The difference is that Caspailler (Characteristc-Attribute-Sets-pailleur) mines dependencies in binary data and Paspailleur (Pattern-Structures-pailleur) mines dependencies in complex (i.e. non-binary) data.
 
-# Published Case Studies
+# Usage Examples
 
-## Hierarchy of Case Studies
-The diagram shows the hierarchy of Case Studies with their common tags (in regular font) and the links to the studies (in bold).
+## Hierarchy of Examples
+The diagram shows the hierarchy of Usage Examples with their common tags (in regular font) and the links to the studies (in bold).
 
 ```mermaid
 graph TD;
@@ -24,7 +24,9 @@ A --> C;
 A --> D;
 ```
 
-More elaborated descriptions of Case Studies are presented below.
+More elaborated descriptions of the Usage Examples are presented below.
+
+_The diagram is constructed automatically from the following descriptions using [update_mermaid](https://github.com/EgorDudyrev/expailleur/blob/main/update_mermaid.py) script._
 
 ## Bob Ross Paintings
 
