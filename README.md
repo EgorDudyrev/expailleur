@@ -14,14 +14,16 @@ The diagram shows the hierarchy of Usage Examples with their common tags (in reg
 
 ```mermaid
 graph TD;
-A[stable concepts,\nintents\n<b>];
-B[keys,\nbinary data,\nimplications\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings.ipynb'>Bob Ross Paintings</a>];
-C[ngrams,\nngram-cloud,\ntextual data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/IJCAI23%20abstracts.ipynb'>IJCAI23 Abstracts</a>];
-D[numerical features,\ncategorical features,\ntabular data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Adult%20Dataset.ipynb'>Adult Dataset</a>];
+A["intents,\nstable concepts\n<b>"];
+B["keys,\nbinary data,\nimplications\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings.ipynb'>Bob Ross Paintings</a>"];
+C["ngrams,\nngram-cloud,\ntextual data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/IJCAI23%20abstracts.ipynb'>IJCAI23 Abstracts</a>"];
+D["numerical features,\ncategorical features,\ntabular data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Adult%20Dataset.ipynb'>Adult Dataset</a>"];
+E["FCA definitions,\nconcept lattice\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings%20(TD%20DM%20IDMC%20version).ipynb'>Bob Ross Paintings (TD DM IDMC version)</a>"];
 
 A --> B;
 A --> C;
 A --> D;
+B --> E;
 ```
 
 More elaborated descriptions of the Usage Examples are presented below.
@@ -37,6 +39,16 @@ Looking for dependencies between paintings from Bob Ross "The Joy of Painting" e
 **The link**: https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings.ipynb
 
 **Note**: Made for SmartFCA reunion in Montpellier (France), June 2023.
+
+## Bob Ross Paintings (TD DM IDMC version)
+
+Study dependencies from Bob Ross Paintings and study the main terms of FCA at the same time.
+
+**Tags**: `binary data`, `intents`, `keys`, `implications`, `stable concepts`, `FCA definitions`, `concept lattice`.
+
+**The link**: https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings%20(TD%20DM%20IDMC%20version).ipynb
+
+**Note**: An updated version of Bob Ross Paintings example. Made for the students of Dama Mining course in IDMC, Nancy (France), October 2023.
 
 ## Adult Dataset
 
