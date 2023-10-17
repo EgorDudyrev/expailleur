@@ -38,6 +38,16 @@ Looking for dependencies between paintings from Bob Ross "The Joy of Painting" e
 
 **Note**: Made for SmartFCA reunion in Montpellier (France), June 2023.
 
+## Bob Ross Paintings (TD DM IDMC version)
+
+Study dependencies from Bob Ross Paintings and study the main terms of FCA at the same time.
+
+**Tags**: `binary data`, `intents`, `keys`, `implications`, `stable concepts`, `FCA definitions`, `concept lattice`.
+
+**The link**: https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings%20(TD%20DM%20IDMC%20version).ipynb
+
+**Note**: An updated version of Bob Ross Paintings example. Made for the students of Dama Mining course in IDMC, Nancy (France), October 2023.
+
 ## Adult Dataset
 
 Finding stable groups of people represented in Adult (Census Income) dataset from UCI.
