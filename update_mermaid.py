@@ -8,7 +8,7 @@ import caspailleur as csp
 def read_data():
     with open('README.md') as file:
         text = file.read()
-    text = re.findall('# Published Case Studies(.*)# ', text, re.DOTALL)[0].strip()
+    text = re.findall('# Usage Examples(.*)# ', text, re.DOTALL)[0].strip()
     examples_txt = text.split('##')[2:]
 
     data = dict(
@@ -76,7 +76,7 @@ def form_mermaid_diagram(
         tags_verb = ',\\n'.join([all_tags[i] for i in tags_iset])
         cases_verb = ',\\n'.join([f"<a href='{case_links[i]}'>{case_titles[i]}</a>" for i in cases_iset])
 
-        node_line = f"{symbol}[{tags_verb}\\n<b>{cases_verb}];"
+        node_line = f'{symbol}["{tags_verb}\\n<b>{cases_verb}"];'
         nodes_lines.append(node_line)
 
     edge_lines = [
