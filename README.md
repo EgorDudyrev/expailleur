@@ -48,7 +48,7 @@ Study dependencies from Bob Ross Paintings and study the main terms of FCA at th
 
 **The link**: https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings%20(TD%20DM%20IDMC%20version).ipynb
 
-**Note**: An updated version of Bob Ross Paintings example. Made for the students of Dama Mining course in IDMC, Nancy (France), October 2023.
+**Note**: An updated version of Bob Ross Paintings example. Made for the students of Data Mining course in IDMC, Nancy (France), October 2023.
 
 ## Adult Dataset
 
