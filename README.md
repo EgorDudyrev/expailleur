@@ -11,6 +11,7 @@ Both packages serve for data mining in Python using Formal Concept Analysis (FCA
 
 ## Hierarchy of Examples
 The diagram shows the hierarchy of Usage Examples with their common tags (in regular font) and the links to the studies (in bold).
+One can view the diagram as a decision tree, where the decision is "what Example to look at based on my needs".
 
 ```mermaid
 graph TD;
@@ -21,7 +22,7 @@ C["concept lattice\n<b>"];
 E["ngrams,\nngram-cloud,\ntextual data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/IJCAI23%20abstracts.ipynb'>IJCAI23 Abstracts</a>"];
 F["numerical features,\ncategorical features,\ntabular data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Adult%20Dataset.ipynb'>Adult Dataset</a>"];
 G["FCA definitions\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings%20(TD%20DM%20IDMC%20version).ipynb'>Bob Ross Paintings (TD DM IDMC version)</a>"];
-H["\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Mining%20interesting%20patterns%20in%20complex_data%20(TD%20DM%20IDMC).ipynb'>Stable patterns in Complex data (TD DM IDMC)</a>"];
+H["binary classification\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Mining%20interesting%20patterns%20in%20complex_data%20(TD%20DM%20IDMC).ipynb'>Stable patterns in Complex data (TD DM IDMC)</a>"];
 
 A --> B;
 A --> E;
@@ -84,7 +85,7 @@ Finding stable ngrams in the abstracts of papers from IJCAI'23 conference.
 
 Finding the stable patterns in binary, tabular, and textual data using (almost) the same pipeline 
 
-**Tags**: `intents`, `stable concepts`, `binary data`, `concept lattice`, `ngrams`, `ngram-cloud`, `textual data`, `numerical features`, `categorical features`, `tabular data`.
+**Tags**: `intents`, `stable concepts`, `binary data`, `concept lattice`, `ngrams`, `ngram-cloud`, `textual data`, `numerical features`, `categorical features`, `tabular data`, `binary classification`.
 
 **The link**: https://github.com/EgorDudyrev/expailleur/blob/main/Mining%20interesting%20patterns%20in%20complex_data%20(TD%20DM%20IDMC).ipynb
 
