@@ -14,15 +14,15 @@ The diagram shows the hierarchy of Usage Examples with their common tags (in reg
 One can view the diagram as a decision tree, where the decision is "what Example to look at based on my needs".
 
 ```mermaid
-graph TD;
-A["intents,\nstable concepts\n<b>"];
-B["binary data\n<b>"];
-D["keys,\nimplications\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings.ipynb'>Bob Ross Paintings</a>"];
-C["concept lattice\n<b>"];
-E["ngrams,\nngram-cloud,\ntextual data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/IJCAI23%20abstracts.ipynb'>IJCAI23 Abstracts</a>"];
-F["numerical features,\ncategorical features,\ntabular data\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Adult%20Dataset.ipynb'>Adult Dataset</a>"];
-G["FCA definitions\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Bob%20Ross%20Paintings%20(TD%20DM%20IDMC%20version).ipynb'>Bob Ross Paintings (TD DM IDMC version)</a>"];
-H["binary classification\n<b><a href='https://github.com/EgorDudyrev/expailleur/blob/main/Mining%20interesting%20patterns%20in%20complex_data%20(TD%20DM%20IDMC).ipynb'>Stable patterns in Complex data (TD DM IDMC)</a>"];
+flowchart TD;
+A["intents,\nstable concepts"];
+B["binary data"];
+D["keys,\nimplications\n---\nBob Ross Paintings"];
+C["concept lattice"];
+E["ngrams,\nngram-cloud,\ntextual data\n---\nIJCAI23 Abstracts"];
+F["numerical features,\ncategorical features,\ntabular data\n---\nAdult Dataset"];
+G["FCA definitions\n---\nBob Ross Paintings (TD DM IDMC version)"];
+H["binary classification\n---\nStable patterns in Complex data (TD DM IDMC)"];
 
 A --> B;
 A --> E;
@@ -37,6 +37,12 @@ F --> H;
 ```
 
 More elaborated descriptions of the Usage Examples are presented below.
+Links to sections:
+* [Bob Ross Paintings](#bob-ross-paintings)
+* [Bob Ross Paintings (TD DM IDMC version)](#bob-ross-paintings-td-dm-idmc)
+* [IJCAI23 Abstracts](#ijcai23-abstracts)
+* [Adult Dataset](#adult-dataset)
+* [Stable patterns in Complex data (TD DM IDMC)](#stable-patterns-in-complex-data-td-dm-idmc)
 
 _The diagram is constructed automatically from the following descriptions using [update_mermaid](https://github.com/EgorDudyrev/expailleur/blob/main/update_mermaid.py) script.
 One node and one edge were moved manually to make the diagram more nicely looking._
@@ -51,7 +57,7 @@ Looking for dependencies between paintings from Bob Ross "The Joy of Painting" e
 
 **Note**: Made for SmartFCA reunion in Montpellier (France), June 2023.
 
-## Bob Ross Paintings (TD DM IDMC version)
+## Bob Ross Paintings TD DM IDMC
 
 Study dependencies from Bob Ross Paintings and study the main terms of FCA at the same time.
 
@@ -81,7 +87,7 @@ Finding stable ngrams in the abstracts of papers from IJCAI'23 conference.
 **The link**: https://github.com/EgorDudyrev/expailleur/blob/main/IJCAI23%20abstracts.ipynb
 
 
-## Stable patterns in Complex data (TD DM IDMC)
+## Stable patterns in Complex data TD DM IDMC
 
 Finding the stable patterns in binary, tabular, and textual data using (almost) the same pipeline 
 
